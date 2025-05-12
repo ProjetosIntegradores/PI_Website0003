@@ -12,6 +12,3 @@ sqlparse==0.5.3
 typing_extensions==4.13.2
 tzdata==2025.2
 whitenoise==6.9.0
-
-# Chave secreta - OBRIGATÓRIO configurar como variável de ambiente no Render
-SECRET_KEY = os.environ.get('a4s3d2f1qrwertyuio')
