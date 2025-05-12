@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # Chave secreta - OBRIGATÓRIO configurar como variável de ambiente no Render
-SECRET_KEY = os.environ.get('a4s3d2f1qrwertyuio')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # DEBUG = False em produção! Configure como variável de ambiente no Render.
 DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
