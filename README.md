@@ -4,6 +4,9 @@ Cliente TekTintas
 
 ### Página Inicial
 
+usuario:admin
+senha: a4s3d2f1
+
 ## Participantes do projeto:
 ```
 GABRIEL ANTONIO RIBEIRO DA SILVA
@@ -18,9 +21,7 @@ O código do Projeto Integrador 3 foi desenvolvido no Visual Studio Code, MySQL 
 
 Depois de muito sofrimento eu criei um site com banco de dados. Tive diversas dificuldades durante o desenvolvimento, porém, com a ajuda de vídeos no YouTube*, repositórios do GitHub** e cursos desta faculdade***, consegui criar um banco de dados funcional... Porem isso so vai ser o suficiente para o Pi1, php tinha pessima integracao com outras ferramentas(pelo menos da maneira que eu tinha feito), e meu computador e incopativel.
 
-A princípio, comecei usando Python, mas depois de falhar algumas vezes tentando fazer sozinho(por dois meses sem usar IA), sem instruções, troquei para PHP para melhor seguir as instrucoes de outros desenvolvedores... Ate eu perceber que o site desenvolvido nao cumpre com os requisitos do PI3. Resolvi voltar para o Python, dessa vez com ajuda de IAs como Copilot e Gemini.
-
-Apesar de o website ser simples, ele cumpre os requisitos do cliente que eram: 
+A princípio, comecei usando Python, mas depois de falhar algumas vezes tentando fazer sozinho(por dois meses sem usar IA), sem instruções, troquei para PHP para melhor seguir as instrucoes de outros desenvolvedores... Ate eu perceber que o site desenvolvido nao cumpre com os requisitos do PI3. Resolvi voltar para o Python, dessa vez com ajuda de IAs como Copilot e Gemini. 
 
 A solução para o cliente: Criar um website que promovesse a loja e um aplicativo onde os seus usuários pudessem colocar suas informações (clientes do cliente) para futuras promoções e contatos.
 

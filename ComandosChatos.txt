@@ -1,0 +1,45 @@
+cd "/c/Users/PC Gamer/Documents/Projeto/Backup/PI_Website0003/TektintasGestao"
+cd "/c/Users/PC Gamer/Documents/Projeto/Backup/PI_Website0003/venv"
+ativar virtual machine do djangono bash: source venv/Scripts/activate
+
+I am doing a project for my college: I must develop a software with web framework or application that uses database, includes web scripting (JavaScript), cloud, accessibility, version control, continuous integration, testing and data analysis. It seems easy, but I don't know where to start, I tried to do in PHP, HTML and CSS using MySQL and phpMyAdmin for database, but I failed to deploy to render, now I'm starting over from scratch using python Django, just how I keep going forward?
+
+Criar um website para promover a loja Tektintas, usando
+
+, depois um website sistema de gestão de clientes e produtos, usando análise de dados para organizar os dados em gráficos de barra. Vou usar VS Code, para backend pretendo usar o Pithon com Django, integrado com MySQL  para banco de dados, finalizando fazendo o deploy no render
+
+# Configuração do WhiteNoise para armazenamento de estáticos em produção
+# Garante que o WhiteNoise possa encontrar os arquivos após o collectstatic
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+# CSRF Trusted Origins (importante para POST requests de domínios diferentes)
+CSRF_TRUSTED_ORIGINS_STRING = os.environ.get('DJANGO_CSRF_TRUSTED_ORIGINS')
+if CSRF_TRUSTED_ORIGINS_STRING:
+    CSRF_TRUSTED_ORIGINS = CSRF_TRUSTED_ORIGINS_STRING.split(',')
+else:
+    CSRF_TRUSTED_ORIGINS = []
+
+# Adiciona o host do Render aos CSRF_TRUSTED_ORIGINS se estiver no ambiente Render
+# e o frontend estiver no mesmo domínio ou subdomínio.
+# Se o frontend estiver em um domínio diferente, adicione-o explicitamente.
+if RENDER_EXTERNAL_HOSTNAME:
+    CSRF_TRUSTED_ORIGINS.append(f"https://{RENDER_EXTERNAL_HOSTNAME}")
+
+# Se o seu frontend (se houver um separado) estiver em outro domínio no Render:
+# Ex: CSRF_TRUSTED_ORIGINS.append('[https://seu-frontend.onrender.com](https://seu-frontend.onrender.com)')
+
+# Logging (opcional, mas bom para produção)
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'root': {
+        'handlers': ['console'],
+        'level': os.environ.get('DJANGO_LOG_LEVEL', 'INFO'),
+    },
+}
