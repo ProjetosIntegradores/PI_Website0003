@@ -26,7 +26,7 @@ A solução para o cliente: Criar um website que promovesse a loja e um aplicati
 
 Já o objetivo do projeto era: Desenvolver um software com framework web ou aplicativo que utile banco de dados, inclua script web(javascript), nuvem, controle de versão, acessibilidade, Integração Contínua, testes, API e analise. Esse website possui um formulário que recebe e envia os dados para uma tabela em SQL que armazena e pode ser editada pelos administradores definidos pelo código. Tambem a varios scripts de java integrados no site, como o slide e barra de pesquisa, além disso, esse projeto usou o GitHub para fazer o backup das várias versões e formas que o projeto teve.
 
-Para o PI3, vou continuar desenvolvendo este projeto para cumprir os requisitos do projeto, como colocar no docker para fazer os testes, Integração e API.
+Para o PI3, vou continuar desenvolvendo este projeto para cumprir os requisitos do projeto, como colocar no docker para fazer os testes, Integração, nuvem, acessabilidade e API.
 
 ## Instalação e Configuração
 
