@@ -30,6 +30,8 @@ A princípio, comecei usando Python, mas depois de falhar algumas vezes tentando
 
 A parte do PI1 foi suficiente para o banco de dados e script web (JavaScript), porém o restante apresentou muitos problemas que não consegui resolver com PHP. Por isso, recomecei o projeto usando Python. Este website no Render (gestao_pi_render) possui uma tabela dinâmica que exibe informações sobre quantos clientes foram inscritos na base de dados em determinado período. O site está hospedado na nuvem (Render), utiliza banco de dados PostgreSQL(SQLite3 localmente), JavaScript para a tabela, controle de versão, testes e integração contínua como parte do Github e Render(requisito funcional), atendendo assim aos requisitos do projeto. 
 
+O cliente achou o PI3 ok pela facilidade e acessibilidade, mas preferiu o PI1 pela aparencia mais bonita, confortavel e simples. 
+
 ## Instalação e Configuração Local
 
 1. **Clone o repositório:**
